@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        <link href="index.css" rel="stylesheet">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+
+<body>
+        <div class="container">
+
+            <svg width="300" height="250" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 250"
+                    style="background-image: url('./assets/banner-bg.png')" xml:space="preserve">
+
+                    <g>
+                        <image xlink:href="./assets/header.png" />
+                    </g>
+
+                    <g class="description">
+                        <image xlink:href="./assets/desc.png" />
+                    </g>
+
+                    <g class="logo floating" style="transform:translate(7px, 187px)" id="logo">
+                            <image xlink:href="./assets/logo1.png" />
+                    </g>
+                  
+                    <g class="objects floating" id="object" style="transform:translate(111px, 160px)">
+                        <image  xlink:href="./assets/objects1.png" />
+                </g>
+
+            </svg>
+
+            <div id="timeCounter">
+                <div id="h10" class="num">
+                  <div class="upper"></div>
+                  <div class="base upper"></div>
+                  <div class="base lower"></div>
+                  <div class="lower"></div>
+                </div>
+                
+                <div id="h0" class="num">
+                  <div class="upper"></div>
+                  <div class="base upper"></div>
+                  <div class="base lower"></div>
+                  <div class="lower"></div>
+                </div>
+                
+                <div class="colon">:</div>
+                
+                <div id="m10" class="num">
+                  <div class="upper"></div>
+                  <div class="base upper"></div>
+                  <div class="base lower"></div>
+                  <div class="lower"></div>
+                </div>
+                
+                <div id="m0" class="num">
+                  <div class="upper"></div>
+                  <div class="base upper"></div>
+                  <div class="base lower"></div>
+                  <div class="lower"></div>
+                </div>
+                
+                <div class="colon">:</div>
+                
+                <div id="s10" class="num">
+                  <div class="upper"></div>
+                  <div class="base upper"></div>
+                  <div class="base lower"></div>
+                  <div class="lower"></div>
+                </div>
+                
+                <div id="s0" class="num">
+                  <div class="upper"></div>
+                  <div class="base upper"></div>
+                  <div class="base lower"></div>
+                  <div class="lower"></div>
+                </div>
+              </div>
+            
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+                integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA=="
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/Draggable.min.js"></script>
+        <script src="./index.js" defer></script>
+</body>
+
+</html>
